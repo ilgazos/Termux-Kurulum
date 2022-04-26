@@ -84,6 +84,7 @@ printf "
 sleep 5
 bash TermuxKurulum.sh
 elif [[ $secim == 2 ]]; then
+clear
 printf "\e[32m
 ████████╗███████╗██████╗ ███╗   ███╗██╗   ██╗██╗  ██╗         
 ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║   ██║╚██╗██╔╝         
@@ -115,7 +116,7 @@ printf "\e[32m
 ║ 『!』Ana Sayfaya Yönlendiriliyorsunuz...
 ╚══════════════════════════════════════════════════
 "
-sleep 7
+sleep 10
 bash TermuxKurulum.sh
 else 
 printf "
